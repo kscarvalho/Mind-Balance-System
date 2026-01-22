@@ -33,7 +33,7 @@ body {
 .container-menu ul {
   display: flex;
   list-style-type: none;
-  gap: 50px;
+  margin-left: 5px;
 }
 
 @media(max-width: 1081px) {
@@ -48,13 +48,18 @@ body {
 li{
   font-size: 0.9rem;
   height: 45px;
-  margin: 0 10px;
+  margin: 10px 0;
+  margin-left: 5px;
   display: flex;
   white-space: nowrap;
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
 }
+
+/* li:hover {
+  background-color: #d3d3d3;
+} */
 
 .container-index {
   width: 90%;
@@ -66,6 +71,7 @@ li{
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   z-index: 1;
+  border: #4E61D3 solid 5px;
 }
 
 @media(max-width: 1014px) {
@@ -94,12 +100,13 @@ li{
   position: absolute;
   width: 50px;
   height: 500px;
-  margin-top: 40px;
   background-color: #ffff;
   transition: 0.8s;
   overflow: hidden; /* esconde elementos que passa o container*/
   border-radius: 0px 10px 10px 0px;
   z-index: 2;
+  border: #4E61D3 solid 5px;
+  border-left: none;
 }
 
 .sidebar.ativo {
@@ -117,17 +124,24 @@ li{
 img{
   width: 30px;
   height: 30px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .sidebar ul li .titulo {
+  display: flex;
   color: #3f3f3f;
   align-items: center;
   font-family: Arial, sans-serif;
   font-weight: bold;
   cursor: pointer;
   padding: 10px;
-  margin-left: 20px;
+  margin: 0px 20px;
+  width: 170px;
+  border-radius: 26px;
+}
+
+.sidebar ul li .titulo:hover {
+  background: #ECECEC;;
 }
 
 .top-bar {
@@ -166,7 +180,7 @@ img{
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 svg path{
