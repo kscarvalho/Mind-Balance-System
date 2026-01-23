@@ -19,7 +19,14 @@ body {
 
 img {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media(max-width: 940px) {
+  img {
+    display: none;
+  }
 }
 
 .input-container {
@@ -126,6 +133,7 @@ button {
    button {
     padding: 10px 20px;
     font-size: 0.8rem;
+    height: 45px;
   }
   .input a, p {
     font-size: 0.9rem;
@@ -136,6 +144,9 @@ button {
   }
   input::placeholder {
     font-size: 1rem;
+  }
+  .input {
+    width: 355px;
   }
 }
 
