@@ -126,7 +126,7 @@ button {
 }
 
 
-@media(max-width: 360px) {
+@media(max-width: 376px) {
   .input h2 {
     font-size: 1.5rem;
   }
@@ -145,9 +145,13 @@ button {
   input::placeholder {
     font-size: 1rem;
   }
-  .input {
-    width: 360px;
+  .input-container{
+    width: 375px;
   }
+  .input {
+    width: 358px;
+  }
+
 }
 
 
