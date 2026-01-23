@@ -146,7 +146,7 @@ button {
     font-size: 1rem;
   }
   .input {
-    width: 355px;
+    width: 100vw;
   }
 }
 
