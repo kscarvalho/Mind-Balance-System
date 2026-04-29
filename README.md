@@ -41,7 +41,7 @@ Clone o repositório:
   <p>git clone https://github.com/kscarvalho/Mind-Balance-System.git
 Acesse a pasta do projeto
   <p></p>Abra o arquivo:
-index.html
+https://kscarvalho.github.io/Mind-Balance-System/
 
 
 
