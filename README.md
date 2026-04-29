@@ -38,7 +38,7 @@ As informações de login e senha são armazenadas no Local Storage com criptogr
 # <h3>▶️ Como executar o projeto<h3>
 
 Clone o repositório:
-  <p>git clone https://github.com/seu-usuario/seu-repositorio.git
+  <p>git clone https://github.com/kscarvalho/Mind-Balance-System.git
 Acesse a pasta do projeto
   <p></p>Abra o arquivo:
 index.html
